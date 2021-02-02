@@ -48,7 +48,6 @@ class CAPepperoni extends FlexPizza {
             'Thin Crust Dough',
             'Tomato Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
@@ -60,7 +59,6 @@ class CACheese extends FlexPizza {
             'Thin Crust Dough',
             'Marinara Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
@@ -73,7 +71,6 @@ class CAVeggie extends FlexPizza {
             'Thin Crust Dough',
             'Tomato Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
@@ -85,7 +82,6 @@ class NYPepperoni extends FlexPizza {
             'Extra Thick Crust Dough',
             'Tomato Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
@@ -97,20 +93,17 @@ class NYCheese extends FlexPizza {
             'Extra Thick Crust Dough',
             'Marinara Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
 
 class NYVeggie extends FlexPizza {
-
     constructor() {
         super(
             'NY Style Sauce and Vegetables Pizza',
             'Extra Thick Crust Dough',
             'Tomato Sauce',
         );
-
         this.addTopping('Grated Reggiano Cheese');
     }
 }
